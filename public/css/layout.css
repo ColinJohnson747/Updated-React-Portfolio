@@ -1160,3 +1160,11 @@ footer .social-links li:first-child {
 #go-top a:hover {
   background-color: #0f9095;
 }
+.portfolioFloatLeft {
+  float: left;
+  margin-left: 10px;
+}
+.portfolioFloatRight {
+  float: right;
+  margin-right: 10px;
+}

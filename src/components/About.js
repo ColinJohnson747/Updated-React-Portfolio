@@ -24,8 +24,10 @@ export default class About extends Component {
                   <span>Email: {resumeData.email}</span>
                   <br />
                   <span>
-                    GitHub: <a href={resumeData.github}> {resumeData.github}</a>
+                    <a href={resumeData.github}> GitHub</a>
                   </span>
+                  <br />
+                  <span>Phone: {resumeData.phone}</span>
                 </p>
               </div>
             </div>

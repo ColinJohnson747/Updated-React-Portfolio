@@ -59,7 +59,20 @@ export default class Resume extends Component {
               }
             </div> 
          </div> */}
-
+        <div className="row resume">
+          <div className="three columns header-col">
+            <h1>
+              <span>Resume</span>
+            </h1>
+          </div>
+          <div className="nine columns main-col">
+            <a href={resumeData.socialLinks[2].url}>
+              Click here to open resume.
+            </a>
+          </div>
+        </div>
+        <br />
+        <hr />
         <div className="row skill">
           <div className="three columns header-col">
             <h1>

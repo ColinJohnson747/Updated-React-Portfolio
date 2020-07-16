@@ -15,7 +15,7 @@ export default class Porfolio extends Component {
                 resumeData.portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
-                      <div className="item-wrap">
+                      <div className="item-wrap" value={item.gitUrl}>
                         <a href="#modal-01">
                           <img
                             src={`${item.imgurl}`}
@@ -30,6 +30,13 @@ export default class Porfolio extends Component {
                           </div>
                         </a>
                       </div>
+                      <a className="portfolioFloatLeft" href={item.appUrl}>
+                        App
+                      </a>
+
+                      <a className="portfolioFloatRight" href={item.gitUrl}>
+                        Repo
+                      </a>
                     </div>
                   );
                 })}
